@@ -1,0 +1,26 @@
+{
+  "name": "rcolor.js",
+  "version": "1.0.0",
+  "description": "this library is return reverse hex code",
+  "main": "src/index.js",
+  "author": "kazumalab",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kazumalab/rcolor.js"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.5.5",
+    "@babel/preset-env": "^7.5.5",
+    "babel-jest": "^24.8.0",
+    "jest": "^24.8.0"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "jest": {
+    "testPathIgnorePatterns": [
+      "/node_modules/"
+    ]
+  }
+}
