@@ -13,7 +13,7 @@ export default class RColor {
     this.hex = hex
   }
 
-  get toRGB() {
+  toRGB() {
     const hex = this.hex.replace('#', '')
     const r = parseInt(hex.substring(0, 2), 16)
     const g = parseInt(hex.substring(2, 4), 16)
@@ -22,7 +22,7 @@ export default class RColor {
     return rgb.toString()
   }
 
-  get toReverse() {
+  toReverse() {
     const hex = this.hex.replace('#', '')
     const r = parseInt(hex.substring(0, 2), 16)
     const g = parseInt(hex.substring(2, 4), 16)
