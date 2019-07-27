@@ -6,14 +6,18 @@
 yarn add rcolor.js
 ```
 
-## API
+## Example
 
 ```
+import RColor from 'rcolor.js'
+
 const rcolor = new RColor('#FFFFFF')
 rcolor.toRGB() // rgb(255,255,255)
 ```
 
 ```
+import RColor from 'rcolor.js'
+
 const rcolor = new RColor('#FFFFFF')
 rcolor.toReverse() // #000000
 ```
