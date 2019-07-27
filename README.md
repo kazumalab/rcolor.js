@@ -1,3 +1,1 @@
-## rcolor.js - getting Reverse Color of hex
-
-Simple API
+## rcolor.js - getting Reverse Color of hex [![Build Status](https://travis-ci.com/kazumalab/rcolor.js.svg?branch=master)](https://travis-ci.com/kazumalab/rcolor.js)
